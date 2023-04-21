@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/CripTranslator",
+  publicPath: "/https://github.com/TaniaRodriguezFdez/CripTranslator.git",
 };
