@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+  display: grid;
+  place-content: center;
+  justify-content: center;
+  background-image: url(./fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Comfortaa";
+}
+
+.container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.732);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 1px 4px 15px 0px rgb(0, 0, 0);
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(2, 2, 18);
+  color: rgb(255, 255, 255);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+select {
+  display: block;
+  border-radius: 20px;
+  width: 300px;
+  height: 35px;
+  font-size: 17px;
+  text-align: center;
+  margin: 10px;
+}
+
+form {
+  text-align: center;
+  padding: 30px;
+  min-width: 300px;
+  text-align: center;
+  background-color: rgb(5, 6, 26);
+  box-shadow: 1px 4px 15px 0px rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.732);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 1px 4px 15px 0px rgb(0, 0, 0);
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(2, 2, 18);
+  color: rgb(255, 255, 255);
+}
+
+button {
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 15px;
+  letter-spacing: 6px;
+  border: none;
+  background-color: rgb(92, 20, 20);
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+button:hover {
+  background-color: rgb(128, 45, 45);
+  font-weight: bold;
+}
+
+.data {
+  text-align: center;
+  width: 380px;
+  padding: 20px;
+  background-color: rgb(5, 6, 26);
+  box-shadow: 1px 4px 15px 0px rgb(0, 0, 0);
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+h4 {
+  font-size: 26px;
+  margin-top: 15px;
+}
+h4 .cripto {
+  color: rgb(0, 191, 255);
+}
+h4 .moneda {
+  color: rgb(255, 225, 0);
+}
+
+img {
+  width: 60px;
+}
+
+p {
+  font-size: 30px;
+}/*# sourceMappingURL=base.css.map */
