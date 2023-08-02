@@ -11,13 +11,15 @@
                 </Grid>
         </div>
 </template>
+<reload-prompt />
 <script>
 import Data from './components/Data.vue';
 import Formulario from './components/Formulario.vue';
 import Cabecera from './components/Cabecera.vue';
 import Grid from './components/Grid.vue';
+import ReloadPrompt from "./components/ReloadPrompt.vue";
 export default {
-        components: { Formulario, Data, Cabecera, Grid },
+        components: { Formulario, Data, Cabecera, Grid, ReloadPrompt },
         data: () => ({
                 info: {
                         cripto: "*",
